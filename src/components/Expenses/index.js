@@ -1,6 +1,6 @@
 import react, { useState } from 'react';
 
-function expensesTotal() {
+function ExpensesTotal() {
   const [total, setTotal] = useState();
 
   // Need to integrate react context to conntect expenses across app.
@@ -10,9 +10,9 @@ function expensesTotal() {
   }, 0);
 
   return (
-    <div className=' budget'>
+    <div className=' expenses'>
       <span> Total Expenses so far : {total}</span>
     </div>
   );
 }
-export default expensesTotal;
+export default ExpensesTotal;

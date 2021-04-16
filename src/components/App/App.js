@@ -1,6 +1,7 @@
 import './App.css';
 import Budget from '../Budget/index';
 import Remainder from '../Remaining/index';
+import ExpensesTotal from '../Expenses';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         </div>
         <div>
           <Remainder />
+        </div>
+        <div>
+          <ExpensesTotal/>
         </div>
       </header>
     </div>
